@@ -1,0 +1,36 @@
+.homepage {
+    background-image: url(../images/blackbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100vh;
+    position: relative;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    color: white;
+}
+.bg-dark{
+    background-color: #615550 !important;
+}
+.navbar-dark .navbar-nav .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    margin: 0 15px;
+}
+.dropdown-menu{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.navbar-brand{
+    font-family: monospace, sans-serif;
+    font-weight:bold;
+    font-size: 25px;
+}
