@@ -7,13 +7,55 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    </style>
+    <title>Home Page</title>
 </head>
-<body>
+<body class="homepage">
 <header>
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+        <a class="navbar-brand" href="#">HTIW</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <!-- col-auto start -->
+        <div class="col-auto">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        How It Works
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">How the Internet Works</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">DNS</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Domain Names and ICANN</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">IP Addresses, Packets, and Routing</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">HTTP and HTTPS Protocols</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">W3C, HTML, and CSS</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </div>
+        </div>
+    </nav>
 </header>
+<section class="banner"></section>
 <h1>Hello, world!</h1>
 
 <!-- Optional JavaScript -->
