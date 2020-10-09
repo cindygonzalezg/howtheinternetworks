@@ -7,6 +7,15 @@
     height: 100vh;
     position: relative;
 }
+.content{
+    background-image: url(.././images/blackbg2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100vh;
+    position: relative;
+}
 
 body{
     font-family: 'Montserrat', sans-serif;
