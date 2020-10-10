@@ -1,4 +1,4 @@
-.homepage {
+.showcase {
     background-image: url(../images/blackbg.jpg);
     background-position: center;
     background-size: cover;
@@ -23,6 +23,9 @@ body{
 h1 {
     color: white;
 }
+p{
+    color: #969696;
+}
 .bg-dark{
     background-color: #615550 !important;
 }
@@ -42,4 +45,12 @@ h1 {
     font-family: monospace, sans-serif;
     font-weight:bold;
     font-size: 25px;
+}
+.showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    padding-right: 200px;
 }
