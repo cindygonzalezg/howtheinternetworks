@@ -6,10 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+        h1 {
+            font-size: 50px;
+            line-height: 1.2;
+            padding-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .words {
+            padding: 50px 20px;
+        }
     </style>
     <title>About</title>
 </head>
@@ -18,7 +33,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">HTIW</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!-- col-auto start -->
@@ -29,10 +45,12 @@
                             <a class="nav-link" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="../docs/about.html">About<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="../docs/about.html">About<span
+                                    class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 How It Works
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -55,14 +73,53 @@
         </div>
     </nav>
 </header>
-<main>
-    <h1>About Page</h1>
+<main class="about">
+    <div class="row">
+        <div class="col-sm-4 image">
+            <div class="words">
+                <h1>About</h1>
+                <p> Learn about the content <br> of this website and who <br> created it. </p>
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class="about-content">
+            <h1 style="color: #9b8982;font-size: 35px">
+                What you will learn:
+            </h1>
+            <p style="color: #75757c">
+                Have you ever wondered about how the websites you visit daily are created? Ever asked yourself how the
+                we are able to send information from one computer to another? Maybe you want to learn the difference
+                between HTTPS and HTTP? Have you ever questioned what an IP address is or how we are able to find a website just by remembering its name?
+                Well if you answered "Yes" to at least one of the above, you are in the right place. You can refer to "How it Works" on the navbar, there you will find a
+                dropdown menu directing you into multiple sections where you can choose the subject you want to learn about. We have
+                covered everything for you, from what is the internet, to security protocols, and more.
+            </p>
+            </div>
+            <div class="complete">
+            <div class="self">
+                <h2 style="color: #534944"> Learn about the creator of this website </h2>
+                <p style="color: #757580"> Hello! My name is Cindy Gonzalez and I am a human-computer
+                    interaction major. Creating and designing has been part of me since
+                    I was a little kid and I am excited to learn more about designing
+                    interfaces and the technology. </p>
+            </div>
+            <img src="../images/cindypic.JPG">
+            </div>
+        </div>
+    </div>
+
 </main>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 </html>

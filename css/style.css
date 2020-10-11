@@ -1,5 +1,5 @@
 .showcase {
-    background-image: url(../images/blackbg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url(../images/blackbg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -53,4 +53,41 @@ p{
     align-items: flex-end;
     text-align: center;
     padding-right: 200px;
+}
+.image{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(.././images/about.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about-content{
+    padding: 100px 100px;
+}
+.self{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    padding-top: 1px;
+    padding-left: 200px;
+    padding-right: 100px;
+    float: left;
+    width: 800px;
+}
+img{
+    border-radius: 50%;
+    height: 240px;
+}
+.complete{
+    background-color: #eae0d9;
+    padding: 100px 20px;
 }
