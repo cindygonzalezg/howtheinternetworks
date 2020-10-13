@@ -31,6 +31,28 @@
             margin-left: 50px;
             margin-top: 30px;
         }
+        .button{
+            font-size: 18px;
+            text-decoration: none;
+            color: #615550;
+            border: #615550 2px solid;
+            padding: 10px 20px;
+            border-radius: 20px;
+            margin-top:20px;
+
+        }
+        .button:hover{
+            background: #615550;
+            color: #ffff;
+            text-decoration: none;
+        }
+        div.buttons{
+            margin-top: 50px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
     </style>
     <title>About</title>
 </head>
@@ -38,7 +60,7 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">HTIW</a>
+            <a class="navbar-brand" href="../index.html">HTIW</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -80,6 +102,7 @@
     </nav>
 </header>
 <main class="about">
+    <div class="container-fluid">
     <div class="row">
         <div class="col-sm-4 image">
             <div class="words">
@@ -98,8 +121,12 @@
                 between HTTPS and HTTP? Have you ever questioned what an IP address is or how we are able to find a website just by remembering its name?
                 Well if you answered "Yes" to at least one of the above, you are in the right place. You can refer to "How it Works" on the navbar, there you will find a
                 dropdown menu directing you into multiple sections where you can choose the subject you want to learn about. We have
-                covered everything for you, from what is the internet, to security protocols, and more.
+                covered everything for you, from what is the internet, to security protocols, and more. To start your learning
+                journey, click the button bellow
             </p>
+                <div class="buttons">
+                <a href=".././docs/how.html" class="button">Start here</a>
+                </div>
             </div>
             <div class="col-sm-6 hi">
             <div class="self">
@@ -115,7 +142,7 @@
             </div>
         </div>
     </div>
-
+    </div>
 </main>
 
 <!-- Optional JavaScript -->

@@ -17,7 +17,7 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">HTIW</a>
+            <a class="navbar-brand" href="../index.html">HTIW</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -55,8 +55,51 @@
         </div>
     </nav>
 </header>
-<section class="banner"></section>
-<h1>DNS</h1>
+<main>
+    <!--title-->
+    <div class="content-title">
+        <h1 class="content_title">DNS</h1>
+    </div>
+    <!-- card -->
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-7">
+            <h2>
+                What does DNS mean?
+            </h2>
+            <p>
+                DNS stands for "Domain Name System". This is a hierarchical naming system for computers.
+
+            </p>
+            <br>
+            <h2> How do we use it?
+            </h2>
+            <p>
+                DNS associates names with its corresponding address. For example when you type on the search bar "facebook.com", your
+                computer is using the Domain Name System to look up domain names and get the associated IP address. You can picture
+                DNS as a phone directory; you type the name of the person you want to reach, and your phone will look
+                for the specific phone number that will get you on a call with the person you want to talk to.
+                <br>
+                <br>
+                We use multiple DNS servers that are connected in a distributed hierarchy. This makes it easier for the DNS to lead you
+                to the website you want to visit. For example, we have DNS servers that will handle .com, while we have other that
+                will handle .org or .net.
+            </p>
+        </div>
+        <div class="col-4">
+            <div class="card card1" style="width: 25rem;">
+                <img class="card-img-top" src="../images/dns.jpg" alt="amazon">
+                <div class="card-body">
+                    <p class="card-text">Let's say you want to go to amazon.com. DNS will find the corresponding IP address
+                        to your "amazon.com" request. Once
+                        DNS has given you the IP address for the website you
+                        want to reach, your web server will use this IP address to lead you to Amazon's website!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</main>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

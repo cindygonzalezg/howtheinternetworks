@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="../css/style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        .card{
+            background-color: #9b8982;
+        }
     </style>
     <title>W3C, HTML, and CSS</title>
 </head>
@@ -17,7 +20,7 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">HTIW</a>
+            <a class="navbar-brand" href="../index.html">HTIW</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -55,8 +58,83 @@
         </div>
     </nav>
 </header>
-<section class="banner"></section>
-<h1>W3C, HTML, and CSS</h1>
+<main>
+    <!--title-->
+    <div class="content-title">
+        <h1 class="content_title">W3C, HTML, and CSS</h1>
+    </div>
+    <!-- card -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-7">
+                <h2>
+                    What is W3C?
+                </h2>
+                <p>
+                    W3C is an international organization that manages
+                    web standards, such as CSS and HTML.
+                </p>
+                <br>
+                <h2>
+                    What is HTML?
+                </h2>
+                <p>
+                    HTML stands for "Hyper Text Markup Language". This is the
+                    language you use to tell a web browser how you want your website
+                    to look. You can add content to a website using html. Such as a
+                    title, images, paragraphs, links, etc.
+                </p>
+                <h2>Why is HTML important?</h2>
+                <p>
+                    HTML is like the bone-structure of a website. This determines
+                    the content of your website.
+                    <br>
+                    Keep in mind that some implements to your websites
+                    such as images or videos have their own unique url. Which
+                    your computer will request through HTTP. Each image or video
+                    requires its own HTTP request.
+                </p>
+                <br>
+                <h2> What is CSS?
+                </h2>
+                <p>
+                    CSS stands for "Cascading Style Sheets". This language determines
+                    the HTML elements of a website will display on your screen. Basically,
+                    we use CSS to design a website. With CSS you tell your browser what
+                    colors you want on your website, the arrangements of the elements of
+                    your website, and how these will behave on different screens.
+                </p>
+                <h2> Why is CSS important? </h2>
+                <p> Without CSS all of the websites in the internet would look similar. Mostly like
+                    white pages with a bunch of words. CSS makes a website unique, and interactive.
+                    CSS makes a website more attractive and allows its creators to express
+                    a lot about the content of the website by just the look of it.
+                    <div class="card" style="width: 25rem; margin-top: 100px; text-align: center">
+                        <img class="card-img-top" src="../images/w3c.png" alt="house">
+                        <div class="card-body">
+                <p class="card-text">W3C manages web browsers.</p>
+            </div>
+        </div>
+                </p>
+            </div>
+            <div class="col-4">
+
+                <div class="card card1" style="width: 25rem;">
+                    <img class="card-img-top" src="../images/html1.jpg" alt="road">
+                    <div class="card-body">
+                        <p class="card-text">HTML allows us to determine the content of our websites</p>
+                    </div>
+                </div>
+                <div class="card card1" style="width: 25rem;">
+                    <img class="card-img-top" src="../images/css.jpg" alt="road">
+                    <div class="card-body">
+                        <p class="card-text">CSS allows us to determine the look of our websites</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

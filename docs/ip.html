@@ -17,7 +17,7 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">HTIW</a>
+            <a class="navbar-brand" href="../index.html">HTIW</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -55,8 +55,89 @@
         </div>
     </nav>
 </header>
-<section class="banner"></section>
-<h1>IP Addresses, Packets, and Routing</h1>
+<main>
+    <!--title-->
+    <div class="content-title">
+        <h1 class="content_title">IP addresses, Packets, and Routing</h1>
+    </div>
+    <!-- card -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-7">
+                <h2>
+                    What is an IP address?
+                </h2>
+                <p>
+                    The internet links billions of devices across the world.
+                    Each device on the internet has a unique address which can be
+                    represented by a number that is unique. A computer address is
+                    called an IP address (meaning "Internet Protocol").
+                </p>
+                <br>
+                <h2>
+                    How do IP addresses work and why are they important?
+                </h2>
+                <p>
+                    IP addresses have a hierarchy. Each of the numbers is
+                    represented by bits. The numbers identify the region/country,
+                    then the subnetworks, and finally the address of the specific device. You can
+                    picture an IP address as a domestic address,
+                    each part of the address will give
+                    you specific information about the location of a building just like each
+                    part of group of bits in an IP address will lead you to a specific website.
+                    As you can see, without a system of domestic addresses it would be
+                    challenging to find your friend's house in the whole planet. Similarly, without
+                    IP addresses we would not be able to locate websites.
+
+                </p>
+                <br>
+                <h2> How does information travel?
+                </h2>
+                <p>
+                    Information travels as a "packet" from one computer to another.
+                    However there are some limits! Some information needs to be broken down into
+                    smaller pieces to be able to send them more effectively. These packets might
+                    reach their
+                    destinations on separate times but at the end it works just as if you had sent
+                    a large packet because the information will meet at the planned
+                    destination. For example, images can be broken down into multiple packages.
+                    each package will travel separately but
+                    it will then find a path towards the same destination and form the
+                    original whole picture as intended.
+                </p>
+                <br>
+                <h2>Where does information travel?</h2>
+                <p>
+                    Router is what keeps paths for the packages to drive through.
+                    Routers offer multiple
+                    paths for liability.
+                    The more routers we have, the more reliable the internet becomes because we
+                    have more "roads" for the packets to travel through, therefore, less chance
+                    of congestive traffic.
+
+                </p>
+            </div>
+            <div class="col-4">
+                <div class="card card1" style="width: 25rem;">
+                    <img class="card-img-top" src="../images/ip1.jpg" alt="house">
+                    <div class="card-body">
+                        <p class="card-text">Like each building in the world, each computer
+                        that uses the internet has a unique IP address</p>
+                    </div>
+                </div>
+                <div class="card card1" style="width: 25rem;">
+                    <img class="card-img-top" src="../images/ip.jpg" alt="road">
+                    <div class="card-body">
+                        <p class="card-text">Packets can be thought of as multiple cars coming
+                        from one house and going to another house. They might get there at different
+                        times, and they might take different "routes" but at the end they have
+                        come from the same place, and they all have reached the same final address</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

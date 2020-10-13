@@ -109,6 +109,7 @@ h2{
 .col-7{
     padding: 60px 100px;
     font-size: 20px;
+    float: left;
 }
 .card1 {
     margin: 120px 100px;
